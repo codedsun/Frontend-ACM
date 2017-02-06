@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="Description" content="Success Login,ACM,ACM Login">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<title>Welcome User</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="icon" href="Img/icon.jpg">
+
+  <style>
+body{ 	
+background: #556270; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #556270 , #FF6B6B); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #556270 , #FF6B6B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }   
+</style>
+
+</head>
+<body>
+<article class="dashboard-member">
+<!--NAVBAR !-->
+		<nav class="nav navbar-inverse ">
+		<div class="container-fluid">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Icon" aria-expanded="false" aria-controls="Icon">
+			<span class="sr-only">Toggle Navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+
+		</button>
+		<a href="#" ><img src="Img/Logo.jpg" alt="Logo" style="height: 80px; width:80px;float: left;">
+		<div style="text-align: right;">
+		<h3>IPEC ACM STUDENT CHAPTER </h3></a>
+		</div>
+		</div>
+		<div class="navbar-collapse collapse" id="Icon">
+		<ul class="nav navbar-nav navbar-right">
+		<li><a href="#"><h3><i class="fa fa-university" aria-hidden="true"></i> Home</h3></a></li>
+		<li><a href="#"><h3><i class="fa fa-info" aria-hidden="true"></i> About Us</h3></a></li>
+		<li class="active"><a href="#"><h3><i class="fa fa-user" aria-hidden="true"></i>UserName</h3>
+		</a></li>
+		</ul>
+		</div>
+		</div>
+		</nav>
+	<!--NAVBAR ENDS !-->
+<br>
+	<!--Main Body !-->
+
+	<div class="container row main">
+	
+	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="border-right: 0.5px solid #ccc;">
+	
+	<img src="Img/radhe.jpg" class="img img-circle img-responsive" height="220px" width="180px"><br>
+
+	<h3><i class="fa fa-male fa-1x" aria-hidden="true" ></i> Suneet Srivastava</h3>
+	<h2>Vice Chair,IPEC ACM </h2>
+	<button type="button" class="btn btn-primary btn-lg">Edit Profile </button>
+	</div>
+	
+	
+
+
+
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align: center;padding-top: 50px;">
+
+	<h1 >Welcome to Dashboard </h1>
+	<h1>Your SIG'</h1>
+	<br>
+		<a href="#" ><button type="button" class="btn btn-default btn-lg"><h2>SIG TRICKS</h2>
+		</button></a><br><br>
+		<a href="#" ><button type="button" class="btn btn-default btn-lg"><h2>SIG PLAN </h2></button>
+		</a>
+	</div>
+	
+	<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2" style="border-left: 0.5px solid #ccc;">
+	<h1>Our Latest Work</h1>
+	</div>
+	</div>
+	<!--End of Main Body !-->
+	<footer>
+	</footer>
+</article>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
